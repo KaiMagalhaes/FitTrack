@@ -72,11 +72,15 @@ h2 {
     margin-bottom: 50px;
     color: white;
 }
+html{
+    scroll-behavior: smooth;
+}
 /* -----------------------------------------MAIN----------------------------------------- */
 #botaoMain{
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
     font-size: 25px;
+    background-color: #0e7654;
 }
 #imgExercicio{
    width: 100%; 
@@ -84,4 +88,13 @@ h2 {
     object-fit: cover; 
     border-radius: 8px; 
 }
+#tituloFuncionalidades{
+    margin-top: 50px;
+}
    
+#tituloHero{
+    margin-top: 50px;
+}
+#textoSecundario{
+    color: #a1a5ab;
+}
