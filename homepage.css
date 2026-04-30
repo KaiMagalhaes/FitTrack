@@ -151,9 +151,14 @@ h2 {
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
+  
 }
 
 .card-it:hover {
   transform: translateY(-10px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+.cardComo{
+    border-radius: 90%;
+    background-color: rgb(29, 114, 1);
 }
