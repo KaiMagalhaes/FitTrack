@@ -22,7 +22,7 @@
       <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="img/halter.png" width="40px" />
+            <img src="img/halter.png" class="img-logo" />
             FitTrack
           </a>
 
@@ -38,16 +38,16 @@
           <div class="collapse navbar-collapse" id="navConteudo">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" id="linkNav" href="#">Funcionalidades</a>
+                <a class="nav-link link-nav" href="#">Funcionalidades</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="linkNav" href="#">Como funciona</a>
+                <a class="nav-link link-nav" href="#">Como funciona</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="linkNav" href="#">Depoimentos</a>
+                <a class="nav-link link-nav" href="#">Depoimentos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="linkNav" href="#">Contatos</a>
+                <a class="nav-link link-nav" href="#">Contatos</a>
               </li>
             </ul>
 
@@ -70,11 +70,9 @@
       </nav>
     </header>
     <main>
-      <section class="Hero">
-        <h1 class="text-center" id="tituloHero">
-          Transforme seu corpo, um treino por vez
-        </h1>
-        <h3 class="text-center" id="textoSecundario">
+      <section class="Hero text-center">
+        <h1 id="tituloHero" class="titulos">Transforme seu corpo, um treino por vez</h1>
+        <h3 class="textoSecundario">
           Somos uma aplicação definitiva para quem procura superar limites e
           transformar o estilo de vida. Ela é simples, intuitiva e poderosa.
         </h3>
@@ -82,17 +80,16 @@
           <button class="btn-fit btn-primario">Baixar grátis</button>
           <button class="btn-fit btn-secundario">Ver demo</button>
         </div>
-        <img src="img/Exercicio.jpg" id="imgExercicio" alt="" />
+        <img src="img/Exercicio.jpg" id="imgExercicioMain" alt="" />
       </section>
-      <section class="Funcionalidades">
-        <h1 class="text-center" id="tituloFuncionalidades">
-          Tudo o que você precisa
-        </h1>
+
+      <section class="Funcionalidades container">
+        <h1 class="text-center titulos">Tudo o que você precisa</h1>
         <div class="row g-4">
           <div class="col-12 col-md-6 col-lg-3">
-            <div class="card h-100 text-center">
+            <div class="card h-100 text-center card-it">
               <div class="d-flex justify-content-center p-3">
-                <img src="img/grafico.png" style="width: 40px; height: 40px" />
+                <img src="img/grafico.png" class="img-icone" />
               </div>
               <div class="card-body">
                 <h5 class="card-title">Acompanhamento de processo</h5>
@@ -100,17 +97,15 @@
                   Monitore sua evolução diária e visualize seus resultados de
                   forma clara.
                 </p>
-                <a href="#" class="btn btn-outline-light" id="botaoMain"
-                  >Explorar</a
-                >
+                <a href="#" class="btn-explorar">Explorar</a>
               </div>
             </div>
           </div>
 
           <div class="col-12 col-md-6 col-lg-3">
-            <div class="card h-100 text-center">
+            <div class="card h-100 text-center card-it">
               <div class="d-flex justify-content-center p-3">
-                <img src="img/treino.png" style="width: 40px; height: 40px" />
+                <img src="img/treino.png" class="img-icone" />
               </div>
               <div class="card-body">
                 <h5 class="card-title">Treinos personalizados</h5>
@@ -118,17 +113,15 @@
                   Receba rotinas de exercícios adaptadas ao seu objetivo e nível
                   de condicionamento físico.
                 </p>
-                <a href="#" class="btn btn-outline-light" id="botaoMain"
-                  >Explorar</a
-                >
+                <a href="#" class="btn-explorar">Explorar</a>
               </div>
             </div>
           </div>
 
           <div class="col-12 col-md-6 col-lg-3">
-            <div class="card h-100 text-center">
+            <div class="card h-100 text-center card-it">
               <div class="d-flex justify-content-center p-3">
-                <img src="img/comida.png" style="width: 40px; height: 40px" />
+                <img src="img/comida.png" class="img-icone" />
               </div>
               <div class="card-body">
                 <h5 class="card-title">Dicas de nutrição</h5>
@@ -136,17 +129,15 @@
                   Acompanhamento calórico e sugestões de refeições saudáveis
                   todos os dias.
                 </p>
-                <a href="#" class="btn btn-outline-light" id="botaoMain"
-                  >Explorar</a
-                >
+                <a href="#" class="btn-explorar">Explorar</a>
               </div>
             </div>
           </div>
 
           <div class="col-12 col-md-6 col-lg-3">
-            <div class="card h-100 text-center">
+            <div class="card h-100 text-center card-it">
               <div class="d-flex justify-content-center p-3">
-                <img src="img/trofeu.png" style="width: 40px; height: 40px" />
+                <img src="img/trofeu.png" class="img-icone" />
               </div>
               <div class="card-body">
                 <h5 class="card-title">Metas e conquistas</h5>
@@ -154,9 +145,76 @@
                   Defina seus objetivos pessoais, ganhe medalhas virtuais e
                   mantenha o foco na sua jornada.
                 </p>
-                <a href="#" class="btn btn-outline-light" id="botaoMain"
-                  >Explorar</a
-                >
+                <a href="#" class="btn-explorar">Explorar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="ComoFunciona container">
+        <h1 class="text-center titulos">Como funciona?</h1>
+        <h3 class="text-center textoSecundario">Passos para iniciar sua jornada fitness</h3>
+        <div class="row g-4">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100 text-center card-it">
+              <div class="d-flex justify-content-center p-3">
+                <img src="img/grafico.png" class="img-icone" />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Acompanhamento de processo</h5>
+                <p class="card-text">
+                  Monitore sua evolução diária e visualize seus resultados de
+                  forma clara.
+                </p>
+                <a href="#" class="btn-explorar">Explorar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100 text-center card-it">
+              <div class="d-flex justify-content-center p-3">
+                <img src="img/treino.png" class="img-icone" />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Treinos personalizados</h5>
+                <p class="card-text">
+                  Receba rotinas de exercícios adaptadas ao seu objetivo e nível
+                  de condicionamento físico.
+                </p>
+                <a href="#" class="btn-explorar">Explorar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100 text-center card-it">
+              <div class="d-flex justify-content-center p-3">
+                <img src="img/comida.png" class="img-icone" />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Dicas de nutrição</h5>
+                <p class="card-text">
+                  Acompanhamento calórico e sugestões de refeições saudáveis
+                  todos os dias.
+                </p>
+                <a href="#" class="btn-explorar">Explorar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100 text-center card-it">
+              <div class="d-flex justify-content-center p-3">
+                <img src="img/trofeu.png" class="img-icone" />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Metas e conquistas</h5>
+                <p class="card-text">
+                  Defina seus objetivos pessoais, ganhe medalhas virtuais e
+                  mantenha o foco na sua jornada.
+                </p>
+                <a href="#" class="btn-explorar">Explorar</a>
               </div>
             </div>
           </div>
